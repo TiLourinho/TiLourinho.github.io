@@ -16,43 +16,60 @@
   </head>
 
   <body>
-    <audio controls autoplay loop>
-      <source src="Músicas/Elliott Smith - Ballad Of Big Nothing.mp3" type="audio/mpeg">
-      Seu navegador não é muito chegado em música
-    </audio>
-    <br><br>
-    <img src="Imagens/Foto.jpeg" alt="Tiago sendo besta" id="img" width="250px">
-    <h2><a href="#img" style="text-decoration: none">TIAGO LOURINHO</a></h2> 
+    <header>
+      <div class="audio">
+        <audio controls loop>
+          <source src="Músicas/Elliott Smith - Ballad Of Big Nothing.mp3" type="audio/mpeg">
+          Seu navegador não é muito chegado em música
+        </audio>
+        <br><br>
+      </div>
+      
+      <div class="indice"> 
+        <a href="#quem" class="quem-header" style="text-decoration: none">QUEM?</a>
+        <a href="#habilidades" class="habilidades-header" style="text-decoration: none">HABILIDADES</a>
     <br>
+      </div>
+    </header>
+    
+    <main>
+      <div class="apresentacao-container">
+        <div class="apresentacao"> 
+          <img src="Imagens/Foto.jpeg" alt="Tiago sendo besta" id="img" width="275px">
+          <h2><a href="#img" style="text-decoration: none">TIAGO LOURINHO</a></h2>
+          <br><br>
+          <h3 id="quem">Quem?</h3>
+            <p>Eu sou o Tiago, estudante de desenvolvimento web na <strong><a href="https://www.betrybe.com/" style="text-decoration: none">Trybe</a></strong>, tenho 38 anos e sou de Brasília - DF. <br> Trabalhei como design gráfico por muitos anos, principalmente
+            com tratamento de imagens <br> e diagramação de álbuns de casamento. Há poucos meses decidi mudar de carreira e estou <br> amando esse novo mundo de aprendizado.
+            Meu hobby favorito é jogar no PC e os ARPGs <br> são minha paixão (<em>FRESH MEAT!</em>). Gosto muito de música, de tocar. <br> Amo séries, filmes,
+            livros, HQs e tudo fica ainda melhor se tiver nerdice envolvida.
+            </p>
+          <br>
+        </div>
+      </div>        
+      
+      <div class="habilidades-container">
+        <div class="habilidades">
+          <h3 id="habilidades">Habilidades</h3>
+            <h4>Soft Skills</h4>
+              <ul>
+                <li>Disciplina</li>
+                <li>Empatia</li>
+                <li>Persistência</li>
+              </ul>
+            <h4>Hard Skills</h4>
+              <ul>
+                <li><a href="https://www.youtube.com/watch?v=MD0T3LReU2s" target="_blank" style="text-decoration: none">Baixo</a></li>
+                <li>Photoshop</li>
+                <li>Programação (In progress)</li>
+              </ul>
+        </div>
+      </div>
 
-    <h3>Índice</h3>
-    <ul>
-      <li><a href="#quem" style="text-decoration: none">Quem?</a></li>
-      <li><a href="#habilidades" style="text-decoration: none">Habilidades</a></li>
-    </ul> 
-    <br>
+      <footer>
 
-    <h3 id="quem">Quem?</h3>
-    <p>Eu sou o Tiago, estudante de desenvolvimento web na <strong><a href="https://www.betrybe.com/" style="text-decoration: none">Trybe</a></strong>, tenho 38 anos e sou de Brasília - DF. <br> Trabalhei como design gráfico por muitos anos, principalmente
-      com tratamento de imagens <br> e diagramação de álbuns de casamento. Há poucos meses decidi mudar de carreira e estou <br> amando esse novo mundo de aprendizado.
-      Meu hobby favorito é jogar no PC e os ARPGs <br> são minha paixão (<em>FRESH MEAT!</em>). Gosto muito de música, de tocar (sou tocador de baixo), <br> amo séries, filmes,
-      livros, HQs e tudo fica melhor se tiver nerdice envolvida.
-    </p>
-    <br>
-
-    <h3 id="habilidades">Habilidades</h3>
-    <h4>Soft Skills</h4>
-    <ul>
-      <li>Disciplina</li>
-      <li>Empatia</li>
-      <li>Persistência</li>
-    </ul>
-    <h4>Hard Skills</h4>
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=MD0T3LReU2s" target="_blank" style="text-decoration: none">Baixo</a></li>
-      <li>Photoshop</li>
-      <li>Programação (In progress)</li>
-    </ul>
+      </footer>
+    </main>
   </body>
 
 </html>
